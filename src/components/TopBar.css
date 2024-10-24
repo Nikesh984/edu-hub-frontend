@@ -1,0 +1,21 @@
+/* TopBar.css */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .profile-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  

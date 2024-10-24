@@ -1,0 +1,14 @@
+a {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust as needed */
+    height: 2px; /* Thickness of the underline */
+    width: 100%;
+    background-color: red; /* Color of the underline */
+  }
